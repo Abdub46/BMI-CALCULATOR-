@@ -1,0 +1,65 @@
+body {
+    background: #f0f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+label, input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+button {
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #27ae60;
+}
+.result, .counseling, .history {
+    margin-top: 20px;
+}
+.history-entry {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    position: relative;
+}
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    cursor: pointer;
+}
